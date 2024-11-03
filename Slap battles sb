@@ -1,0 +1,6 @@
+local DrRayLibrary = loadstring(game:HttpGet("https://raw.githubusercontent.com/AZYsGithub/DrRay-UI-Library/main/DrRay.lua"))()
+local window = DrRayLibrary:Load("HAMZA HUB SB", "Default")
+local tab = DrRayLibrary.newTab("SB SCRIPT", "ImageIdHere")
+tab.newButton("Auto get clock glove", "Credit To SeeHamza!", function()
+loadstring(game:HttpGet('https://raw.githubusercontent.com/Pro666Pro/AutoGetClock/main/main.lua'))()
+end)
